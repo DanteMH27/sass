@@ -1,0 +1,44 @@
+.intro-section {
+  background-color: gray;
+  padding: 8rem 0 0 0;
+  display: flex;
+
+  .display-2 {
+    text-transform: capitalize;
+    color: black;
+    font-size: 4rem;
+    font-weight: 200;
+
+    .display-2-intro {
+      font-weight: 800;
+      display: inline-block;
+    }
+
+    .display-2-description {
+      font-size: 1.8rem;
+      margin-top: 1.2rem;
+      display: inline-block;
+    }
+
+    .img-box {
+      text-align: center;
+      margin-top: 0;
+    }
+  }
+}
+
+.second-section {
+  padding: 0 0 5rem 0;
+  background-color: whitesmoke;
+
+  .app-title {
+    text-align: center;
+    margin-bottom: 1.2rem;
+  }
+
+  .app-logo {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+  }
+}

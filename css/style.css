@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+iframe {
+  max-width: 100%;
+  display: flex;
+}
+
+header {
+  display: flex;
+  background-color: purple;
+  top: 0%;
+  z-index: 1;
+  padding: 0.5rem 0;
+  position: sticky;
+}
+header .title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 5rem;
+}
+
+nav {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-right: 1.3rem;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+nav ul li a:hover {
+  color: bisque;
+}
+
+.container {
+  width: 80%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .row .col {
+  width: 100%;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.intro-section {
+  background-color: gray;
+  padding: 8rem 0 0 0;
+  display: flex;
+}
+.intro-section .display-2 {
+  text-transform: capitalize;
+  color: black;
+  font-size: 4rem;
+  font-weight: 200;
+}
+.intro-section .display-2 .display-2-intro {
+  font-weight: 800;
+  display: inline-block;
+}
+.intro-section .display-2 .display-2-description {
+  font-size: 1.8rem;
+  margin-top: 1.2rem;
+  display: inline-block;
+}
+.intro-section .display-2 .img-box {
+  text-align: center;
+  margin-top: 0;
+}
+
+.second-section {
+  padding: 0 0 5rem 0;
+  background-color: whitesmoke;
+}
+.second-section .app-title {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.second-section .app-logo {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+
+footer {
+  background-color: black;
+  padding-top: 1rem;
+}
+footer .footer-sm {
+  color: white;
+  text-align: center;
+}
+footer .footer-sm {
+  color: white;
+  text-align: center;
+}
+footer .footer-sm a {
+  color: white;
+}
+footer .footer-sm a i {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+footer .footer-sm__icons {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+footer .footer-bottom {
+  padding: 1.5rem 0;
+}
+footer .footer-bottom__copyright {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+footer .footer-bottom__copyright a {
+  color: white;
+  text-decoration: underline;
+}
+footer .footer-bottom__copyright a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */

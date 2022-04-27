@@ -1,0 +1,26 @@
+nav {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  ul {
+    list-style: none;
+    display: flex;
+
+    li {
+      margin-right: 1.3rem;
+
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+
+        &:hover {
+          color: bisque;
+        }
+      }
+    }
+  }
+}
