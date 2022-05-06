@@ -6,14 +6,20 @@
 
 img {
   max-width: 100%;
+  display: flex;
 }
 
 img,
 svg {
   vertical-align: middle;
+  display: flex;
 }
 
 iframe {
   max-width: 100%;
   display: flex;
+}
+
+body {
+  font-family: "Poppins" sans-serif;
 }
